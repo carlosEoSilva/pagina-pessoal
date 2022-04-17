@@ -1,0 +1,91 @@
+body{
+	/* background-color: cornflowerblue; */
+	background-image: url('image/fundo-3.jpg');
+	background-size: cover;
+}
+
+h1, h3{
+	font-family: 'Fredoka One', cursive !important; 
+	color: rgb(253, 253, 253);
+	text-shadow:2px 2px 0 rgb(0, 0, 0);
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 10px 0 0 0;
+	color: white;
+}
+
+.label-titulo-card{
+	font-family: 'Fredoka One', cursive !important; 
+	display: block;
+	font-size: 20px;
+}
+
+.label-numeros{
+	font-family: 'Fredoka One', cursive;
+	font-size: 25px;
+
+}
+
+.card{
+	display: inline;
+}
+.square{
+	width: 150px;
+	height: 150px;
+}
+
+.square:active{
+	border: solid 7px red;
+
+}
+.grid{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	padding: 1% 4% ;
+	background-image: url('image/fundo-1.jpeg');
+	background-size: cover;
+	border-bottom: solid 10px black;
+	margin-bottom: 3%;
+}
+
+.no-click{
+	pointer-events: none;
+}
+
+
+
+.w3-row{
+	padding: 1% 3%;
+	
+}
+
+.card-body{
+	background-color:#c29420;
+}
+
+.bullet{
+	width: 40px;
+	height: 165px;
+	margin: 0 1%;
+}
+
+.target{
+	background-image: url("image/target-transparente.png");
+	background-size:cover;
+	border-bottom: solid 2px red;
+}
+
+.transparente{
+	opacity: 0;
+}
+
+
+/* 
+font-family: 'Anek Odia', sans-serif;
+font-family: 'Fredoka One', cursive;
+font-family: 'Shadows Into Light', cursive; */

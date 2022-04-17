@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">	
+	<!-- w3 css-->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!-- my css -->
+	<link rel="stylesheet" href="alvo.css">
+
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anek+Odia&family=Fredoka+One&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+	<script type="text/javascript" src="time.js" defer></script>
+	<script type="text/javascript" src="shot.js" defer></script>
+	<script type="text/javascript" src="randIndex.js" defer></script>
+	<script type="text/javascript" src="alvo.js" defer></script>
+
+</head>
+<body>
+	<title>Tiro ao alvo</title>
+		
+	<!-- Alvos -->
+	<div class="w3-container grid">
+			
+				<div class="square" id="1"></div>
+				<div class="square" id="2"></div>
+				<div class="square" id="3"></div>
+				<div class="square" id="4"></div>
+				<div class="square" id="5"></div>
+				<div class="square" id="6"></div>
+				<div class="square" id="7"></div>
+				<div class="square" id="8"></div>
+				<div class="square" id="9"></div>
+				<div class="square" id="10"></div>
+				<div class="square" id="11"></div>
+				<div class="square" id="12"></div>
+				<div class="square" id="13"></div>
+				<div class="square" id="14"></div>
+				<div class="square" id="15"></div>
+				<div class="square" id="16"></div>
+				<div class="square" id="17"></div>
+				<div class="square" id="18"></div>
+				<div class="square" id="19"></div>
+				<div class="square" id="20"></div>
+				<div class="square" id="21"></div>
+			
+	</div>	
+
+	<!-- Painel -->
+	<div class="w3-row w3-center">
+		<div class="w3-col m2 l2">
+			
+			<p><button class="w3-btn w3-round-xlarge w3-green btn-recomecar">RECOMEÇAR</button></p>
+			<p><button class="w3-btn w3-round-xlarge w3-cyan"><a style="text-decoration: none;" href="../../index.html">VOLTAR</a></button></p>
+		</div>
+
+		<div class="w3-col m2 l2">
+			<!-- acertos -->
+			<div class="w3-card-4 card">
+				<header class="w3-container w3-blue">
+					<label class="label-titulo-card">ACERTOS</label>
+				</header>				
+				<div class="w3-container card-body">
+					<label id="points" class="label-numeros">0</label>
+				</div>
+			</div>
+
+			<!-- tempo -->
+			<div class="w3-card-4 card">
+				<header class="w3-container w3-blue">
+					<label class="label-titulo-card">TEMPO</label>
+				</header>					
+				<div class="w3-container card-body">
+					<label id="time-left" class="label-numeros">0</label>
+				</div>					
+			</div>
+			
+			
+		</div>
+
+		<!-- Bullets -->
+		<div class="w3-col m5 l5 ammunition">
+			<img class="bullet" src="image/bullet-transparente.png">
+			<img class="bullet" src="image/bullet-transparente.png">
+			<img class="bullet" src="image/bullet-transparente.png">
+			<img class="bullet" src="image/bullet-transparente.png">
+			<img class="bullet" src="image/bullet-transparente.png">
+			<img class="bullet" src="image/bullet-transparente.png">
+			<img class="bullet" src="image/bullet-transparente.png">
+		</div>
+	</div>
+
+	<footer class="">		
+		<p class="copyright">&copy; Copyright MySiteProjects</p>
+	</footer>
+		
+	
+
+</body>

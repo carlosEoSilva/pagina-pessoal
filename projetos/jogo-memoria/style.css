@@ -1,0 +1,43 @@
+html { 
+	background: url(images/mesa01.jpg) no-repeat center center fixed ! important; 
+	-webkit-background-size: cover ! important;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 0px;
+}
+
+h3{
+	margin-bottom:0px;
+}
+
+img{
+	margin: 3px;
+}
+
+
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 0;
+	width: 1000px;
+	padding: 2% 10%;
+	padding-bottom:2%;
+	margin: 0px;
+	
+}
+
+.buttons{
+	padding: 5% 0 0 3%;
+}
+
+.w3-row{
+	padding-top: 3px;
+}
+
+.trophy{
+	width: 80%;
+	border: solid 3px;
+	visibility: hidden;
+}
+

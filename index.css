@@ -1,0 +1,205 @@
+body{
+	background-color: #7465ff;
+	margin: 2px 2px;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 500%;
+	font-family: 'MuseoModerno', cursive;
+	color: white;
+}
+
+p, h2{
+	text-align: center;
+	font-size: 150%;
+	padding: 3% 20% 5% 20%;
+	line-height: 30px;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	margin: 0;
+	border: solid 1px;
+}
+
+h3{
+	font-family: 'Nunito', sans-serif;
+
+}
+
+footer{
+	text-align: center;
+	padding: 3%
+}
+
+a{
+	text-decoration: none;
+}
+
+.modal{
+	/* isto faz o elemento ficar no mesmo lugar mesmo a tela sendo rolada */
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* o scale(0) faz o elemento ficar ivisível */
+	transform: translate(-50%, -50%) scale(0);
+	border: 1px solid black;
+	border-radius: 10px;
+	/* o  z-index faz o elemento ficar sobreposto aos outros*/
+	z-index: 10;
+	background-color: #D3ECA7;
+	/* width: 500px; */
+	width: 80%;
+	height: 80%;
+}
+
+.modal.active{
+	transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header{
+	padding: 10px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid black;
+	background-color: #A1B57D;
+	
+}
+
+.modal-header .title{
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.modal-body{
+	padding: 10px;
+	
+}
+
+.p-modal{
+	color: black;
+	font-family: 'Inter', sans-serif;
+}
+.footer-alt{
+	font-size: 200%;
+	font-family: 'MuseoModerno', cursive;
+}
+
+.proj-img{
+	height: 100%;
+	width: 100%;
+}
+
+.alt-h2{
+	border: 0px;
+	padding: 1% 0;
+}
+
+.alt-p{
+	border: solid 1px white;
+	padding: 1%;
+	
+}
+
+.card-p-container{
+	height: 200px;
+	padding: 0;
+}
+
+.w3-card-4{
+	border: 1px;
+	margin: 1%;
+	color: white;
+}
+
+.part-1{
+	background: url(images/img-02.png) no-repeat center center fixed ! important; 
+	-webkit-background-size: cover ! important;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 5%;
+
+	}
+
+.img-01{
+	width: 20rem;
+	
+}
+
+.btn-quem-sou{
+	margin: 5%;
+	border-radius: 50%;
+	border: solid 2px;
+	height: 250px;
+	/* transformar o mouse em mão quando passar por cima da imagem */
+	cursor: pointer;
+	display:float;
+}
+
+.btn-quem-sou:hover{
+	height: 300px;
+}
+
+.quem-sou{
+	background: url(images/fundo-quem-sou.png) no-repeat center center fixed ! important; 
+	-webkit-background-size: cover ! important;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-top: 3px;
+	
+}
+
+.certificate{
+	width: 90%;
+	height: 90%;
+	margin: 0 3%;
+	
+}
+.cert-row-1{
+	background-color: #c165ff;
+	padding: 1%;
+}
+
+.cert-row-2{
+	background-color: #65e0ff;
+	padding: 1%;
+}
+
+
+.projects{
+	margin: 2%;
+}
+
+
+#overlay{
+	position: fixed;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .5);
+	pointer-events: none;
+}
+
+#overlay.active{
+	opacity: 1;
+	pointer-events: all;
+}
+
+#apresentacao-cert .w3-row:hover{
+	box-shadow: inset 0 0 5px 5px #22577E;
+}
+
+
+
+/* 
+font-family: 'MuseoModerno', cursive;
+font-family: 'Nunito', sans-serif; */
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'MuseoModerno', cursive;
+font-family: 'Nunito', sans-serif; */
