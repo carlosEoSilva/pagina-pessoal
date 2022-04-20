@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+	<!-- https://carloseosilva.github.io/criptografia/ -->
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Cryptografia</title>
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anek+Odia&family=Fredoka+One&family=Josefin+Sans:ital,wght@0,400;1,300&family=Merriweather+Sans:ital,wght@1,300&family=My+Soul&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+	<!-- w3 css -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/index.css">
+
+	<script type="text/javascript" src="scripts/variaveis.js" defer></script>
+	<script type="text/javascript" src="scripts/criptografar.js" defer></script>
+	<script type="text/javascript" src="scripts/descriptografar.js" defer></script>
+	<script type="text/javascript" src="scripts/index.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<h1>Cryptografia de textos</h1>
+	</header>
+	
+	<main>
+
+		<div class="w3-row">
+			<div class="w3-col m8 area-trabalho">
+				<h3>Texto Original</h3>
+				<textarea id="descript-text" rows="7" cols="50" placeholder="Digite aqui o segredo que quer proteger!"></textarea>
+			
+				<h3>Texto Criptografado</h3>
+				<textarea id="cript-text" rows="7" cols="50" placeholder="Digite aqui o segredo que quer revelar!"></textarea><br>
+
+				<button id="criptografar" class="w3-btn w3-round-large w3-lime" style="border:none;">Criptografar</button>
+				<button id="descriptografar" class="w3-btn w3-round-large w3-light-green">Descriptografar</button>
+				<button id="copiar" class="w3-btn w3-round-large w3-orange">Copiar</button>
+				<button id="limpar" class="w3-btn w3-round-large w3-orange">Limpar</button>
+
+			</div>
+
+			<div class="w3-col m3 painel">
+				<p><strong>O que é criptografia?</strong></p>
+				<p>Criptografia em segurança virtual é a conversão de dados de um formato legível em um formato codificado. Os dados criptografados só podem ser lidos ou processados ​​depois de serem descriptografados. A criptografia é um elemento fundamental da segurança de dados.</p>
+				<img src="imagem/cripto.jpg">
+			</div>
+		</div>
+		
+		
+	</main>
+	
+	<footer>
+		<p class="footer">
+			&copy; Criado por Carlos Eduardo como parte do projeto Oracle ONE
+		</p>
+		
+	</footer>
+</body>
