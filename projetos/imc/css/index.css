@@ -1,0 +1,192 @@
+*{
+	box-sizing: border-box;
+ }
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background-color: #23ff01;
+}
+
+header{
+	background-color: #23ff01;
+	height: 3em;
+	color: #FFF;
+	margin-bottom: 1em;
+}
+
+main{
+	background-color: #baffb8;
+}
+
+header h1{
+	font-size: 4em;
+	display:inline-block;
+	vertical-align:	middle;
+	font-family: 'Tapestry', cursive;
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+}
+
+
+form label{
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1rem;
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+	
+}
+
+section h2{
+	font-size: 2rem;
+	font-family: 'Tapestry', cursive;
+	display: block;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+  	table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid black;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+	
+}
+
+.form-container h4{
+	color: white;
+	font-family: 'Tapestry', cursive;
+
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+button{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+
+}
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-paciente{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
+.paciente-invalido {
+	background-color: lightcoral;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.invisivel {
+	display: none;
+}
+
+#filtrar-tabela {
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+#titulo-form{
+	font-size: 2rem;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+#mensagens-erro {
+	color: red;
+}
+
+/* 
+font-family: 'Anek Odia', sans-serif;
+font-family: 'Fredoka One', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'My Soul', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Tapestry', cursive; */
