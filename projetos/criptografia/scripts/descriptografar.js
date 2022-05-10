@@ -1,8 +1,8 @@
 const descriptografar= () =>{
-
 	let input= textCripto.value
 	let strCripto= input.toLowerCase();
 	let strDecripto= [];
+	
 	for(var ind= 0; ind < strCripto.length; ind++){
 		let letra= strCripto[ind];
 
