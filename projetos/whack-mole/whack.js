@@ -8,6 +8,7 @@ const playSound= () => {
 	let sound = new Audio("whack-mole-images/tom-1.mp3");
 	sound.play();
 }
+
 let result= 0;
 let currentTime= timeLeft.textContent;
 
@@ -18,7 +19,7 @@ function randomSquare(){
 	});
 
 	//fazer a toupeira aparecer em qudrados aleatórios
-	let randomPosition= square[Math.floor(Math.random() * 9)];
+	let randomPosition= square[Math.trunc(Math.random() * 9)];
 	randomPosition.classList.add('mole');
 
 	hitPosition= randomPosition.id;

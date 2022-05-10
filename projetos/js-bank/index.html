@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="scripts/variables.js"></script>
+    <script defer src="scripts/script.js"></script>
+    <title>JS-Bank O banco do programador</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="img/logo.png" alt="Bankist logo" class="nav__logo" id="logo"/>
+
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Recursos</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Atividades</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Depoimentos</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#">Abrir uma conta</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          <!-- Green highlight effect -->
+          <span class="highlight">O banco</span>
+          do<br />
+          <span class="highlight">programador</span>
+        </h1>
+        <h4>Um banco que simplifica o algoritmo financeiro.</h4>
+        <button class="btn--text btn--scroll-to">Saiba mais &DownArrow;</button>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Recursos</h2>
+        <h3 class="section__header">
+          Tudo o que você precisa em um banco de alta tecnologia.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% digital</h5>
+          <p>
+		Tenha um completo gerenciamento de sua conta e seu dinheiro em qualquer lugar
+		a qualquer hora e de qualquer dispositivo.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Veja seu dinheiro render</h5>
+          <p>
+            Oferecemos as melhores oportunidades de investimentos do mercado
+	    e com os melhores juros possíveis!
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Cartão de crédito livre de anuidade</h5>
+          <p>
+            Desfrute de toda a comodidade de nosso cartão de crédito sem
+	    nenhum custo extra.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Atividades</h2>
+        <h3 class="section__header">
+          Tudo da forma mais simplificada possível, mas sem ser simplório.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+            <span>01</span>Transferências isntantâneas
+          </button>
+
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Aprovação de crédito imediato
+          </button>
+
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Encerramento de conta imediato
+          </button>
+        </div>
+
+        <div class="operations__content operations__content--1 operations__content--active">
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Transfira dinheiro para qualquer pessoa, sem taxas extras.
+          </h5>
+          <p>
+            Transferência de qualquer valor para contas do mesmo banco ou de outros
+	    bancos sem cobrança de taxas extras.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Compre a casa ou o carro próprio, com financiamentos aprovados na hora.
+          </h5>
+          <p>
+            Financiamentos aprovados instantâneamente para a realizar o sonho da casa ou do carro próprio.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Não precisa mais da conta? Sem problemas! Encerramento instantâneo.
+          </h5>
+          <p>
+            Encerramento de conta sem burocracia e chatiação, instantâneamente.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Ainda está indeciso?</h2>
+        <h3 class="section__header">
+          Milhões de programadores já estão ficando ricos.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">A melhor decisão financeira de todas!</h5>
+            <blockquote class="testimonial__text">
+             Melhor banco do mundo, feito por programadores para programadores, 
+	     embarque conosco nessa aventura financeira e fique rico!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              A opção definitiva sobre investimentos
+            </h5>
+            <blockquote class="testimonial__text">
+              As melhores oportunidades de investimentos do mercado estão aliqui
+	      com baixos riscos e altos retornos.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Liberdade dos bancos tradicionais
+            </h5>
+            <blockquote class="testimonial__text">
+              A inovação está aqui, tudo funciona muito bem e é muito bonito.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          O melhor momento de se juntar a nós foi a um ano atrás!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Abra sua conta gratuita hoje!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Sobre</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Preços</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Política</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacidade</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Oportunidades</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Fale conosco</a>
+        </li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Página criada como atividade do curso de Javascript ministrado por 
+	 <a
+	 class="footer__link twitter-link"
+	 target="_blank"
+	 href="https://twitter.com/jonasschmedtman"
+	 >Jonas Schmedtmann
+       </a> 
+	</p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Abra a sua conta <br />
+        em apenas <span class="highlight">5 minutos</span>
+      </h2>
+      <form class="modal__form">
+        <label>Primeiro Nome</label>
+        <input type="text" />
+        <label>Sobrenome</label>
+        <input type="text" />
+        <label>Email</label>
+        <input type="email" />
+        <button class="btn">Próximo passo &rarr;</button>
+      </form>
+    </div>
+
+    <div class="overlay hidden"></div>    
+  </body>
+</html>
