@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<!-- projeto -->
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Apresentacao pessoal</title>
 	<link rel="icon" type="image/x-icon" href="images/icon.ico">
 	<!--W3 css-->
@@ -9,7 +9,7 @@
 	<!--css-->
 	<link rel= "stylesheet" href= "index.css">
 	<!--script-->
-	<script type="text/javascript" src= "index.js" charset= "UTF-8"></script>
+	<script type="text/javascript" src= "index.js" charset= "UTF-8" defer></script>
 	<!--google fonts-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,33 +19,45 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=MuseoModerno:wght@500&family=Nunito:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
 </head>
 
-<body>	
-	<div class="part-1">
-		<h1>Bem vindo ao meu site!</h1>
-		<p>Esta página foi desenvolvida com o propósito de me apresentar e demonstrar algumas de minhas habilidades e capacidades como desenvolvedor.</p>
+<body>
+	<!-- navbar -->
+	<div class="w3-bar w3-green nav">
+		<img class="w3-bar-item nav-img" src="images/icon.ico">
+		<button href="#" class="w3-bar-item w3-button nav_link">INÍCIO</button>
+		<button href="#apresentacao-cert" class="w3-bar-item w3-button nav_link">CERTIFICADOS</button>
+		<button href="#projects" class="w3-bar-item w3-button nav_link">PROJETOS</button>
+		<button href="#quem-sou-eu" class="w3-bar-item w3-button nav_link">SOBRE MIM</button>
 	</div>
 
-	<div class="w3-container w3-center quem-sou">
-		<img  class="btn-quem-sou" src="images/qeum-sou-eu.jpg">
-
-		<div class="modal" id="modal">
-			<div class="modal-header">
-				<div class="title">Apresentação pessoal</div>
-			</div>
-			<div class=" modal-body">
-				<p class="alt-p w3-left-align p-modal">Sou formado em análise e desenvolvimento de sistemas na escola FATEC de Ribeirão Preto, onde tive contato com várias ferramentas de desenvolvimento, por já ter construído uma base sólida na área de programação, tenho facilidade ao adquirir novos conhecimentos e me adaptar a novas ferramentas ou tecnologias.
-				Possuo conhecimentos sobre os paradigmas de programação procedural e orientada a objetos, desenvolvimento front-end e back-end, e tecnologias de desenvolvimento e frameworks, html, css, javascript, bootstrap, node.js, linguagem C, PL/SQL. Estou a procura de uma oportunidade para atuar no mercade de desenvolvimento, sempre que posso participo de atividades extra curriculares a fim de me aprimorar como desenvolvedor e também possuo grande conhecimento em inglês.
-				</p>
-			</div>
+	<section id="inicio">
+		<div class="part-1">
+			<h1>Bem vindo ao meu site!</h1>
+			<p>Esta página foi desenvolvida com o propósito de me apresentar e demonstrar algumas de minhas habilidades e capacidades como desenvolvedor.</p>
 		</div>
-		
-	</div>
+	</section>
+	
 
-<h1>CERTIFICADOS</h1>
+	<section id="quem-sou-eu">
+		<div class="w3-container w3-center quem-sou">
+			<img  class="btn-quem-sou" src="images/qeum-sou-eu.jpg">
+	
+			<div class="modal w3-green" id="modal">
+				<div class="modal-header">
+					<div class="title">Apresentação pessoal</div>
+				</div>
+				<div class=" modal-body">
+					<p class="alt-p w3-left-align p-modal">Sou formado em análise e desenvolvimento de sistemas pela escola FATEC de Ribeirão Preto, onde tive contato com várias ferramentas de desenvolvimento, por já ter construído uma base sólida na área de programação, tenho facilidade ao adquirir novos conhecimentos e me adaptar a novas ferramentas ou tecnologias.
+					Possuo conhecimentos sobre os paradigmas de programação procedural e orientada a objetos, desenvolvimento front-end e back-end, e tecnologias de desenvolvimento e frameworks, html, css, javascript, bootstrap, node.js, linguagem C, PL/SQL. Estou a procura de uma oportunidade para atuar no mercade de desenvolvimento, sempre que posso participo de atividades extra curriculares a fim de me aprimorar como desenvolvedor e também possuo grande conhecimento em inglês.
+					</p>
+				</div>
+			</div>		
+		</div>
+	</section>
+
 
 <!-- certificados -->
 <section id="apresentacao-cert">
-
+	<h1>CERTIFICADOS</h1>
 	<!-- alura -->
 	<div class="w3-row cert-row-1">
 		<div class="w3-col m12 l6">
@@ -169,13 +181,11 @@
 	</div>
 </section>
 
-<h1>PROJETOS PESSOAIS</h1>
-
 <section id="projects">
+	<h1>PROJETOS PESSOAIS</h1>
 	<!-- primeira row -->
 	<div class="w3-row">
-
-		<div class="w3-col m3">
+		<div class="w3-col m3 l3 s12">
 			<div class="w3-card-4 w3-border w3-hover-border-red">
 				<header class="w3-container w3-blue">
 				  <h2 class="alt-h2">JOGO DA MEMÓRIA</h2>
@@ -188,8 +198,8 @@
 				 <a href="projetos/jogo-memoria/index.html"><h5>ACESSAR</h5></a>
 				</footer>
 				</a>			
-				</div>
 			</div>
+		</div>
 
 			<div class="w3-col m3">
 				<div class="w3-card-4 w3-border w3-hover-border-red">
@@ -239,7 +249,6 @@
 
 	<!-- segunda row -->
 	<div class="w3-row">
-
 		<div class="w3-col m3">
 			<div class="w3-card-4 w3-border w3-hover-border-red">
 				<header class="w3-container w3-blue">
@@ -253,10 +262,10 @@
 				 <a href="projetos/imc/index.html"><h5>ACESSAR</h5></a>
 				</footer>
 				</a>			
-				</div>
 			</div>
+		</div>
 
-			<div class="w3-col m3">
+		<div class="w3-col m3">
 				<div class="w3-card-4 w3-border w3-hover-border-red">
 					<header class="w3-container w3-blue">
 					  <h2 class="alt-h2" style="visibility: hidden;">ACERTE A TOPEIRA</h2>
@@ -265,51 +274,22 @@
 						<img class="proj-img" src="images/work-in-progress-final.jpeg">
 					</div>				
 					<footer class="w3-container w3-blue">
-						<a href="projetos/whack-mole/whack.html"><h5>EM DESENVOLVIMENTO</h5></a>
+						<a href=""><h5>EM DESENVOLVIMENTO</h5></a>
 					</footer>			
 				</div>
-			</div>
-
-		<div class="w3-col m3">
-			<div class="w3-card-4 w3-border w3-hover-border-red" style="visibility: hidden;">
-				<header class="w3-container w3-blue">
-				  <h2 class="alt-h2">TIRO AO ALVO</h2>
-				</header>			
-				<div class="w3-container card-p-container">
-					<img class="proj-img" src="images/tiro-ao-alvo.png">
-				</div>				
-				<footer class="w3-container w3-blue">
-				  <a href="projetos/tiro-ao-alvo/alvo.html"><h5>ACESSAR</h5></a>
-				</footer>			
-				</div>
-		</div>
-
-		<div class="w3-col m3">
-			<div class="w3-card-4 w3-border w3-hover-border-red" style="visibility: hidden;">
-				<header class="w3-container w3-blue">
-				  <h2 class="alt-h2">CRIPTOGRAFIA</h2>
-				</header>			
-				<div class="w3-container card-p-container">
-					<img class="proj-img" src="images/criptografia.png">
-				  
-				</div>				
-				<footer class="w3-container w3-blue">
-				<a href="projetos/criptografia/index.html"><h5>ACESSAR</h5></a>
-				  
-				</footer>			
-				</div>
-		</div>
+		</div>		
 
 	</div>	
 
 </section>
 
-	<div  style="height: 100px;" class="w3-row">
-		<footer class="footer-alt" >
+<!-- footer -->
+<div  style="height: 100px;" class="w3-row">
+	<footer class="footer-alt" >
 		CONTATO</br>
 		Cel: (16)99411-9089  - Email: coliveiras590@gmail.com
-		</footer>
-	</div>
+	</footer>
+</div>
 	
 
 <div id="overlay"></div>
