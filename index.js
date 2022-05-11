@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 const openModal= document.querySelector('.btn-quem-sou');
 const overlay= document.querySelector("#overlay");
 const modal= document.querySelector(".modal");
+const navLinks= document.querySelectorAll('.nav_link');
 
 
 openModal.addEventListener("click", openModalFunc);
@@ -20,6 +21,14 @@ function closeModalFunc(){
 	overlay.classList.remove('active');
 
 }
+
+navLinks.forEach((link)=>{
+	link.addEventListener('click', (event)=>{
+		const id= event.target.getAttribute('href');
+		document.querySelector(id).scrollIntoView({behavior: 'smooth'});
+	});
+});
+
 
 })
 

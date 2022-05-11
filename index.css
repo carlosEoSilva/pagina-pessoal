@@ -50,7 +50,9 @@ a{
 	background-color: #D3ECA7;
 	/* width: 500px; */
 	width: 80%;
-	height: 80%;
+	/* height: 60%; */
+
+	
 }
 
 .modal.active{
@@ -74,13 +76,19 @@ a{
 
 .modal-body{
 	padding: 10px;
+	/* display: flex;
+	flex-wrap: wrap; */
 	
 }
 
 .p-modal{
 	color: black;
 	font-family: 'Inter', sans-serif;
+
+	
+
 }
+
 .footer-alt{
 	font-size: 200%;
 	font-family: 'MuseoModerno', cursive;
@@ -99,6 +107,8 @@ a{
 .alt-p{
 	border: solid 1px white;
 	padding: 1%;
+	display: flex;
+	flex-wrap: wrap;
 	
 }
 
@@ -173,6 +183,9 @@ a{
 	margin: 2%;
 }
 
+.nav-img{
+	height: 40px;	
+}
 
 #overlay{
 	position: fixed;
@@ -194,7 +207,84 @@ a{
 	box-shadow: inset 0 0 5px 5px #22577E;
 }
 
+@media (max-width: 660px){
+	h1{
+		/* text-align: center; */
+		/* font-size: 50%; */
+		/* font-family: 'MuseoModerno', cursive;
+		color: white; */
+		font-size:10px;
+		
+	}
 
+}	
+      
+@media only screen and (max-width: 400px) {
+
+	h1{
+		text-align: center;
+		font-size: 100%;
+		font-family: 'MuseoModerno', cursive;
+		/* color: white; */
+	}
+
+	p, h2{
+		text-align: center;
+		font-size: 90%;
+		padding: 3% 20% 5% 20%;
+		line-height: 30px;
+		font-family: 'Nunito', sans-serif;
+		/* color: white; */
+		margin: 0;
+		border: solid 1px;
+	}
+
+	h5{
+		font-size: 90%;
+	}
+
+	.footer-alt{
+		font-size: 70%;
+		font-family: 'MuseoModerno', cursive;
+	}
+
+	.alt-p{
+		border: none;
+		padding: 1%;
+		display: flex;
+		flex-wrap: wrap;
+		line-height: 15px;
+		
+	}
+
+	.btn-quem-sou{		
+		height: 150px;		
+	}
+
+	.btn-quem-sou:hover{
+		height: 150px;
+	}
+
+	.part-1 p{
+		line-height: 15px;
+	}
+
+	.nav{
+		display: none;
+	}
+
+	.certificate{
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+		
+	#projects{
+		padding: 2% 2%;
+	}
+
+	
+}
+      
 
 /* 
 font-family: 'MuseoModerno', cursive;
