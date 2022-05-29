@@ -1,0 +1,48 @@
+body{
+	background-color: cornflowerblue;
+}
+
+p{
+	font-family: 'Righteous', cursive;
+	font-size: 100%;
+	margin: 2% 0;
+}
+
+footer{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+
+footer p{
+	font-family: 'Righteous', cursive;
+	font-size: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.card_image{
+	height: 20rem;
+	width: 100%;
+}
+
+.w3-card-4{
+	margin: 5%;
+	width: 30%;
+	display: inline-block;
+}
+
+.w3-row{
+	/* padding-left: 20% auto; */
+}
+
+
+
+
+/* 
+font-family: 'Courgette', cursive;
+font-family: 'Righteous', cursive;
+ */
