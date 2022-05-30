@@ -36,6 +36,11 @@ a{
 	text-decoration: none;
 }
 
+.nav{
+	position: sticky;
+	top: 0;
+}
+
 .modal{
 	/* isto faz o elemento ficar no mesmo lugar mesmo a tela sendo rolada */
 	position: fixed;

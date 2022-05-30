@@ -1,0 +1,74 @@
+body{
+	
+	background-color: #2a416c;
+	
+}
+
+
+footer{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	
+}
+
+footer p{
+	font-family: 'Righteous', cursive;
+	font-size: 100%;
+}
+
+h1{
+	font-family: 'Courgette', cursive;
+	font-size: 2rem;
+	color: #cddc39;
+	margin: 1% auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+.img-forca{
+	height: 25%;
+	width: 25%;
+	margin-top: 1%; 
+	
+}
+
+.question-icon{
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+}
+
+.worong-letters{
+	font-size: 1.5rem;
+	margin-top: 2%;
+	font-family: 'Righteous', cursive;
+	color: red;
+}
+
+.w3-input{
+	width: 40px;
+	margin: 1% auto;
+}
+
+.img-div{
+	margin-bottom: 2%;
+}
+
+.keyboard-key{
+	margin-top: 10px;
+	font-family: 'Righteous', cursive;
+}
+
+.botton-btns{
+	margin-top: 2%;
+	font-family: 'Righteous', cursive;
+}
+
+.hide{
+	/*display: none;*/
+	opacity: 0;
+	transition: 1s;
+}
