@@ -1,0 +1,82 @@
+<head>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Teko:wght@300&display=swap" rel="stylesheet">    <!-- reset css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    
+    <!-- meu css -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    
+    <!-- meu script -->
+    <!-- <script type="text/javascript" src="../script/objects.js" defer></script> -->
+    <!-- <script type="text/javascript" src="../script/index.js" defer></script> -->
+    <script type="text/javascript" src="script/indexAPI.js" defer></script>
+</head>
+
+<body>
+<div class="page-body">
+    <header class="cabecalho">
+        <img class="mask" src="img/mask.png"/>
+        <div class="header-text">
+            <p>UNIVERSAL</p>
+            <h4>SUPER HEROES</h4>
+            <p>COLLECTION</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- menu -->
+        <div id="form-id">
+            <form>
+                <div id="inner-form">
+                    <label id="add">Adicionar |</label>
+                    
+                    <input type="text" id="fname" name="fname" size="15" placeholder="NOME...">
+                    
+                    <select id="attribute" name="">
+                        <option value=" ">ATRIBUTO</option>
+                        <option value="intelligence">INTELIGÊNCIA</option>
+                        <option value="strength">FORÇA</option>
+                        <option value="speed">VELOCIDADE</option>
+                        <option value="durability">RESISTÊNCIA</option>
+                        <option value="height">ALTURA</option>
+                        <option value="weight">PESO</option>
+                    </select>
+        
+                    <select id="compare" name="">
+                        <option value=">">MAIOR QUE...</option>
+                        <option value="===">IGUAL A...</option>
+                        <option value="<">MENOR QUE...</option>
+                    </select>
+        
+                    <input type="text" id="fvalue" name="fname" size="4" placeholder="VAZIO">
+        
+                    <label class="filtrar" id="filter">Filtrar</label>
+                    </div>
+                    
+            </form>
+        </div>
+    
+        <!-- cards -->
+        <div class="grid-container">
+            <!-- <div class="modal" id="modal">
+				<div class="modal-header">
+					<div class="title">XXXXXXXXXX</div>
+				</div>
+				<div class=" modal-body">
+					<p class="alt-p w3-left-align p-modal">YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY</p>
+				</div>
+			</div>		 -->
+        </div>
+    </main>
+
+</div>
+    <footer>
+        <p id="p-footer"><span class="s-footer">SPEED TO HERO 2022</span> - No Rights Reserved!</p>
+    </footer>
+
+    <div id="overlay"></div>
+
+</body>
